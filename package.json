@@ -1,8 +1,7 @@
 {
-  "name": "profile-card-component",
+  "name": "__name__",
   "version": "1.0.0",
   "private": true,
-  "description": "profile-card-component",
   "author": "untlsn",
   "keywords": [
     "gatsby"
@@ -17,9 +16,14 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.12.0",
     "gatsby": "^3.1.1",
+    "gatsby-plugin-alias-imports": "^1.0.5",
     "gatsby-plugin-styled-components": "^4.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.9",
+    "@types/react": "^17.0.3"
   }
 }
