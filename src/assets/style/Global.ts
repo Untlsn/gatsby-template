@@ -14,10 +14,12 @@ const Global = createGlobalStyle`
     font-family: Roboto, sans-serif;
     margin: 0;
     min-height: 100vh;
+    color: ${({ theme }) => theme.colors.black};
   }
   
   a {
     color: inherit;
+    text-decoration: none;
   }
 `
 export default Global
