@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ccf6aaf-4238-472c-9735-bf8b112eb091" name="Default Changelist" comment="Add eslint (no prettier)">
+    <list default="true" id="4ccf6aaf-4238-472c-9735-bf8b112eb091" name="Default Changelist" comment="Add react-helmet primary for add fonts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/style/Global.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/Global.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/providers/Style.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/Style.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +99,7 @@
       <workItem from="1616439338441" duration="432000" />
       <workItem from="1616570141631" duration="344000" />
       <workItem from="1616661074034" duration="3033000" />
-      <workItem from="1616683841806" duration="7493000" />
+      <workItem from="1616683841806" duration="7822000" />
     </task>
     <task id="LOCAL-00001" summary="Create Template">
       <created>1616439432018</created>
@@ -145,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616691890030</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add react-helmet primary for add fonts">
+      <created>1616693158862</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616693158862</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +187,8 @@
     <MESSAGE value="Add interfaces and little change in code" />
     <MESSAGE value="add useBoolState" />
     <MESSAGE value="Add eslint (no prettier)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add eslint (no prettier)" />
+    <MESSAGE value="Add react-helmet primary for add fonts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add react-helmet primary for add fonts" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

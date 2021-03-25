@@ -3,13 +3,14 @@ import { ThemeProvider } from 'styled-components';
 import { theme, GlobalStyle } from '@style/all';
 import { Helmet } from 'react-helmet';
 
-const StyleProvider = ({ children }: { children: any }) => {
+const StyleProvider = ({ children, fonts }: { children: any, fonts: string[] }) => {
   return (
     <>
       <Helmet>
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link rel="stylesheet"
-              href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" />
+        <link rel='preconnect' href='https://fonts.gstatic.com' />
+        {fonts.map(
+          (font, key) => <link rel='stylesheet' href={font} key={key} />
+        )}
       </Helmet>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
