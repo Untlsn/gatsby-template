@@ -6,12 +6,14 @@
     "strict": true,
     "jsx": "react",
     "baseUrl": "src",
+    "allowSyntheticDefaultImports": true,
     "paths": {
       "~/*": ["*"],
       "@pages/*": ["pages/*"],
       "@hooks/*": ["hooks/*"],
       "@helpers/*": ["helpers/*"],
       "@providers/*": ["providers/*"],
+      "@interfaces/*": ["interfaces/*"],
 
       "@assets/*":  ["assets/*"],
       "@style/*":  ["assets/style/*"],

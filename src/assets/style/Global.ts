@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components'
 
 const robotoUrl = 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'
 
-const Global = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
   @import url(${robotoUrl});
   
   *, *::after, *::before {
@@ -22,4 +22,4 @@ const Global = createGlobalStyle`
     text-decoration: none;
   }
 `
-export default Global
+export default GlobalStyle

@@ -1,14 +1,14 @@
-import * as React from 'react';
+import React from 'react';
 import{ ThemeProvider } from "styled-components";
-import * as AS from '@style/all'
+import { theme, GlobalStyle } from '@style/all'
 
-const Style = ({ children }: { children: any }) => {
+const StyleProvider = ({ children }: { children: any }) => {
   return (
-    <ThemeProvider theme={AS.Theme} >
-      <AS.Global />
+    <ThemeProvider theme={theme} >
+      <GlobalStyle />
       {children}
     </ThemeProvider>
   );
 };
 
-export default Style;
+export default StyleProvider;

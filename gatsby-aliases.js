@@ -17,7 +17,8 @@ module.exports = {
         'hooks',
         'helpers',
         'assets',
-        'providers'
+        'providers',
+        'interfaces',
       ]),
       ...createAlias('src/assets', ['style']),
       ...createAlias('src/components', [

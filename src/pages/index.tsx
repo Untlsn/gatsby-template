@@ -1,11 +1,11 @@
-import * as React from 'react'
-import * as Providers from '@providers/all'
+import React from 'react'
+import { StyleProvider } from '@providers/all'
 
 const Home = () => {
   return (
-    <Providers.Style>
+    <StyleProvider>
       <div>Hello World!</div>
-    </Providers.Style>
+    </StyleProvider>
   )
 }
 

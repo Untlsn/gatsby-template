@@ -1,2 +1,2 @@
-export { default as Global } from './Global'
-export { default as Theme } from './Theme'
+export { default as GlobalStyle } from './Global'
+export { default as theme } from './theme'
