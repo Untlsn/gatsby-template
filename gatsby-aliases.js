@@ -1,13 +1,13 @@
-const path = require('path')
+const path = require('path');
 
 const createAlias = (from, useArr) => useArr.reduce((acc, cur) => ({
   ...acc,
   [`@${cur}`]: path.resolve(__dirname, from, cur)
-}), {})
+}), {});
 
 
 module.exports = {
-  resolve: `gatsby-plugin-alias-imports`,
+  resolve: 'gatsby-plugin-alias-imports',
   options: {
     alias: {
       '~': path.resolve(__dirname, 'src'),
@@ -30,4 +30,4 @@ module.exports = {
     },
     extensions: ['js', 'ts', 'tsx']
   }
-}
+};

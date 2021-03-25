@@ -1,11 +1,11 @@
-const aliases = require('./gatsby-aliases')
+const aliases = require('./gatsby-aliases');
 
 module.exports = {
   siteMetadata: {
-    title: "profile-card-component",
+    title: 'profile-card-component',
   },
   plugins: [
-    "gatsby-plugin-styled-components",
+    'gatsby-plugin-styled-components',
     aliases
   ],
 };

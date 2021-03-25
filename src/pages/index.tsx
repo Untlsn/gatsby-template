@@ -1,12 +1,12 @@
-import React from 'react'
-import { StyleProvider } from '@providers/all'
+import React from 'react';
+import { StyleProvider } from '@providers/all';
 
 const Home = () => {
   return (
     <StyleProvider>
       <div>Hello World!</div>
     </StyleProvider>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

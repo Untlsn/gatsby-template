@@ -1,7 +1,6 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 
-
-const robotoUrl = 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'
+const robotoUrl = 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap';
 
 const GlobalStyle = createGlobalStyle`
   @import url(${robotoUrl});
@@ -21,5 +20,6 @@ const GlobalStyle = createGlobalStyle`
     color: inherit;
     text-decoration: none;
   }
-`
-export default GlobalStyle
+`;
+
+export default GlobalStyle;
