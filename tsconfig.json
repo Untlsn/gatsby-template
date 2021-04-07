@@ -13,7 +13,6 @@
       "@hooks/*": ["hooks/*"],
       "@helpers/*": ["helpers/*"],
       "@providers/*": ["providers/*"],
-      "@interfaces/*": ["interfaces/*"],
 
       "@assets/*":  ["assets/*"],
       "@style/*":  ["assets/style/*"],
