@@ -7,6 +7,7 @@ Simply copy code or use:
 	gatsby new 'project_name' https://github.com/Untlsn/gatsby-template
 ```
 # Used technology 
+- [gatsby](https://github.com/gatsbyjs/gatsby)
 - [typescript](https://github.com/microsoft/TypeScript)
 - [styled-components](https://github.com/styled-components/styled-components)
 - [jest](https://github.com/facebook/jest) + [Enzyme](https://github.com/enzymejs/enzyme)
