@@ -1,1 +1,1 @@
-export { default as StyleProvider } from './Style';
+export { default as StyleProvider } from './StyleProvider';
