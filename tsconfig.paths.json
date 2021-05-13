@@ -1,0 +1,19 @@
+{
+  "baseUrl": "src",
+  "paths": {
+    "~/*": ["*"],
+    "@pages/*": ["pages/*"],
+    "@hooks/*": ["hooks/*"],
+    "@helpers/*": ["helpers/*"],
+    "@providers/*": ["providers/*"],
+
+    "@assets/*":  ["assets/*"],
+    "@style/*":  ["assets/style/*"],
+
+    "@components/*": ["components/*"],
+    "@atoms/*": ["components/atoms/*"],
+    "@molecules/*":  ["components/molecules/*"],
+    "@organisms/*": ["components/organisms/*"],
+    "@view/*": ["components/view/*"]
+  }
+}

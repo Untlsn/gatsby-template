@@ -16,9 +16,10 @@ Simply copy code or use:
 
 # Own addons
 - **all.ts files**
-Simple file that exports all files default as it's  names
+Simple file that exports all files defaults as they're names
 ```js
 	export { default as fileName } from './fileName.ts'; 
+	export { default as fileName2 } from './fileName2.ts';
 ```
 - **Provider with style**
 It's provide theme and global style from assets and requier array of used fonts (as props)
@@ -36,12 +37,12 @@ Useful hook to treat with boolean state
 Aliases are added by special function createAlias
 ```js
 	...createAlias('src', [
-		'pages', // src/pages
-		'components', // src/components etc.
-		'hooks',
-		'helpers',
-		'assets',
-		'providers',
+	'pages', // src/pages
+	'components', // src/components etc.
+	'hooks',
+	'helpers',
+	'assets',
+	'providers',
 	]),
 ```
 
