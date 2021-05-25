@@ -12,6 +12,7 @@ Simply copy code or use:
 - [jest](https://github.com/facebook/jest)
 - [react-helmet](https://github.com/nfl/react-helmet)
 - [eslint](https://github.com/eslint/eslint)
+- [storybook](https://github.com/storybookjs/storybook)
 
 # Own addons
 - **index.ts files**
