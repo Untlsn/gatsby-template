@@ -1,6 +1,5 @@
 # Gatsby-template
-My own gastby template with Typescript and styled-components
-With some sugar
+My own gastby template with Typescript and styled-components with some sugar
 # Usage
 Simply copy code or use:
 ```shell
@@ -10,19 +9,19 @@ Simply copy code or use:
 - [gatsby](https://github.com/gatsbyjs/gatsby)
 - [typescript](https://github.com/microsoft/TypeScript)
 - [styled-components](https://github.com/styled-components/styled-components)
-- [jest](https://github.com/facebook/jest) + [Enzyme](https://github.com/enzymejs/enzyme)
+- [jest](https://github.com/facebook/jest)
 - [react-helmet](https://github.com/nfl/react-helmet)
 - [eslint](https://github.com/eslint/eslint)
 
 # Own addons
-- **all.ts files**
-Simple file that exports all files defaults as they're names
+- **index.ts files**
+Simple file that exports all files defaults as their names
 ```js
 	export { default as fileName } from './fileName.ts'; 
 	export { default as fileName2 } from './fileName2.ts';
 ```
 - **Provider with style**
-It's provide theme and global style from assets and requier array of used fonts (as props)
+It's provide theme and global style from assets and require array of used fonts (as props)
 ```jsx
 	<StyleProvider fonts={arrayWithFonts}>
 		<div>rest</div>

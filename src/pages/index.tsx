@@ -1,5 +1,5 @@
 import React from 'react';
-import StyleProvider from '@providers/StyleProvider';
+import { StyleProvider } from '@providers';
 
 const robotoUrl = 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap';
 

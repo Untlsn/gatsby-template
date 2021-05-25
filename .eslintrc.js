@@ -27,6 +27,6 @@ module.exports = {
     'max-len': 'off',
     'array-element-newline': 'off',
     'react/prop-types': 'off',
-    'comma-dangle': ['warn', 'only-multiline']
+    'comma-dangle': ['warn', 'always-multiline'],
   },
 };

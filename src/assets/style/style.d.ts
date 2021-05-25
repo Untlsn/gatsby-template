@@ -1,10 +1,10 @@
-import 'styled-components'
+import 'styled-components';
 
-declare module 'styled-components' { // Add own themes (remember to copy it to theme.ts)
+declare module 'styled-components' {
   export interface DefaultTheme {
     colors: {
-      white: '#ffffff',
-      black: '#000000',
+      white: '#ffffff'|'#000000'
+      black: '#000000'|'#ffffff'
     }
   }
 }

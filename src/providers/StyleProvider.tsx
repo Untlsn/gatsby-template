@@ -1,6 +1,6 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { theme, GlobalStyle } from '@style/all';
+import { lightTheme, GlobalStyle } from '@style/all';
 import { Helmet } from 'react-helmet';
 
 const StyleProvider = ({ children, fonts }: { children: any, fonts: string[] }) => {
@@ -9,10 +9,10 @@ const StyleProvider = ({ children, fonts }: { children: any, fonts: string[] }) 
       <Helmet>
         <link rel='preconnect' href='https://fonts.gstatic.com' />
         {fonts.map(
-          (font, key) => <link rel='stylesheet' href={font} key={key} />
+          (font, key) => <link rel='stylesheet' href={font} key={key} />,
         )}
       </Helmet>
-      <ThemeProvider theme={theme}>
+      <ThemeProvider theme={lightTheme}>
         <GlobalStyle />
         {children}
       </ThemeProvider>
