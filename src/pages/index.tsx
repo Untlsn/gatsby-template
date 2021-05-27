@@ -1,14 +1,29 @@
 import React from 'react';
-import { StyleProvider } from '@providers';
+import Providers from '@providers';
+import { useDispatch } from 'react-redux';
+import { actions } from '@store';
 
 const robotoUrl = 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap';
 
-const Home = () => {
+const Wrapper = () => {
   return (
-    <StyleProvider fonts={[robotoUrl]}>
-      <div>Hello World!</div>
-    </StyleProvider>
+    <Providers fonts={[robotoUrl]}>
+      <Home />
+    </Providers>
   );
 };
 
-export default Home;
+const Home = () => {
+  const dispatch = useDispatch();
+
+  const onClick = () => dispatch(actions.mini.switchTheme());
+
+  return (
+    <>
+      <div>Hello World!</div>
+      <button onClick={onClick}>Change theme</button>
+    </>
+  );
+};
+
+export default Wrapper;

@@ -2,7 +2,7 @@ const path = require('path');
 
 const createAlias = (from, useArr) => useArr.reduce((acc, cur) => ({
   ...acc,
-  [`@${cur}`]: path.resolve(__dirname, from, cur)
+  [`@${cur}`]: path.resolve(__dirname, from, cur),
 }), {});
 
 
@@ -18,6 +18,8 @@ module.exports = {
         'helpers',
         'assets',
         'providers',
+        'types',
+        'store',
       ]),
       ...createAlias('src/assets', ['style']),
       ...createAlias('src/components', [
@@ -25,8 +27,8 @@ module.exports = {
         'molecules',
         'organisms',
         'view',
-      ])
+      ]),
     },
-    extensions: ['js', 'ts', 'tsx']
-  }
+    extensions: ['js', 'ts', 'tsx'],
+  },
 };

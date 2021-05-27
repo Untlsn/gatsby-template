@@ -16,6 +16,8 @@ const aliases = {
         'helpers',
         'assets',
         'providers',
+        'types',
+        'store'
       ]),
       ...createAlias('src/assets', ['style']),
       ...createAlias('src/components', [

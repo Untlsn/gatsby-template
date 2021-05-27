@@ -7,6 +7,8 @@
       "@hooks/*": ["hooks/*"],
       "@helpers/*": ["helpers/*"],
       "@providers/*": ["providers/*"],
+      "@types/*":  ["types/*"],
+      "@store/*": ["store/*"],
 
       "@assets/*":  ["assets/*"],
       "@style/*":  ["assets/style/*"],
@@ -21,6 +23,8 @@
       "@hooks": ["hooks"],
       "@helpers": ["helpers"],
       "@providers": ["providers"],
+      "@types":  ["types"],
+      "@store": ["store"],
 
       "@assets":  ["assets"],
       "@style":  ["assets/style"],

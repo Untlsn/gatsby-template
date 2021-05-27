@@ -1,9 +1,14 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { lightTheme, GlobalStyle } from '@style/all';
 import { Helmet } from 'react-helmet';
+import { GlobalStyle, darkTheme, lightTheme } from '@style';
+import { useSelector } from 'react-redux';
 
-const StyleProvider = ({ children, fonts }: { children: any, fonts: string[] }) => {
+export interface StyleProviderProps { children: any, fonts: string[] }
+
+const StyleProvider = ({ children, fonts }: StyleProviderProps) => {
+  const isDark = useSelector(state => state.mini.isDark);
+
   return (
     <>
       <Helmet>
@@ -12,7 +17,7 @@ const StyleProvider = ({ children, fonts }: { children: any, fonts: string[] }) 
           (font, key) => <link rel='stylesheet' href={font} key={key} />,
         )}
       </Helmet>
-      <ThemeProvider theme={lightTheme}>
+      <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
         <GlobalStyle />
         {children}
       </ThemeProvider>
