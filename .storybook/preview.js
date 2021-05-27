@@ -1,3 +1,4 @@
+import StyleProvider from '../src/providers/StyleProvider';
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -8,3 +9,11 @@ export const parameters = {
     },
   },
 }
+
+export const decorators = [
+  (Story) => (
+      <StyleProvider fonts={[]}>
+        <Story />
+      </StyleProvider>
+  )
+]
